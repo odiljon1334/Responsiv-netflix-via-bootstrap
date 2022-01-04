@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+</head>
+<style>
+  div > i {
+      font-size: 24px;
+      color: white;
+  }
+  p > span {
+      color: #46d369;;
+      
+  }
+  span > img {
+       width: 24px;
+       height: 24px;
+   }
+   .dot {
+  height: 24px;
+  width: 24px;
+  background-color: black;
+  padding: 5px;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-family: "nf-icon";
+    line-height: 1;
+}
+.star-class {
+    color: gold;
+}
+</style>
+<body>
+    <div class="container-fluid bg-dark">
+        <!--Navbar start-->
+        <div class="row ">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-danger" href="#">NETFLIX</a>
+                      <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">TVShows</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                              Movies
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">New & Popular</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">My List</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!--Navbar end!-->
+        <div class="row mt-4 bg-dark">
+            <!--side start-->
+            <div class="col-12 col-md-2 ">
+                <div class="list-group ">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-danger">
+                      Anime
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-danger">Comedies</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-danger">Romance</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-danger">Drama</a>
+                    <a class="list-group-item list-group-item-action disabled bg-dark text-danger">Action</a>
+                  </div>
+            </div>
+            <!--side end!-->
+
+            <div class="col-12 col-md-10">
+                <!--content start-->
+                <div class="row mt-4 mt-md-0">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top" alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"></i><i class="ms-2">2 : Seasons</i></h5>
+                              <p class="card-text d-flex ms-1"><span>97% Match  <span class="badge bg-success ms-4">All</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-half"></span>
+                                        <span class="bi bi-star"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                    <!--content end-->
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4 ">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top" alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match  <span class="badge bg-warning ms-4"> 15+</span></span></p>
+                              <div class=" text-white">
+                                <div class="star-class pb-1 ">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                      <!--content end-->
+                      <!--content start-->
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4 ">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top" alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match  <span class="badge bg-danger ms-4">18+</span></span></p>
+                              <div class=" text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-half"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                      <!--content end-->
+                      <!--content start-->
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top" alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><span class="ms-2">2 : Seasons</span></i></h5>
+                              <p class="card-text d-flex "><span>97% Match  <span class="badge bg-danger ms-4">18+</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-half"></span>
+                                        <span class="bi bi-star"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                       <!--content end-->
+                       <!--content start-->
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top" alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match  <span class="badge bg-warning ms-4">15+</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                        <!--content end-->
+                       <!--content start-->
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top " alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match <span class="badge bg-success ms-4">All</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                    <!--content end-->
+                       <!--content start-->
+                       <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top " alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match   <span class="badge bg-danger ms-4">New</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                    <!--content end-->
+                       <!--content start-->
+                       <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top " alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match  <span class="badge bg-danger ms-4">New</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-half"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                    <!--content end-->
+                       <!--content start-->
+                       <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                        <div class="card" style="width: 15rem;">
+                            <img src="/venom.jpeg" class="card-img-top " alt="venom-image">
+                            <div class="card-body bg-dark">
+                                <div class="pb-2">
+                                    <i class="bi bi-play-circle"></i>
+                                    <i class="bi bi-plus-circle ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-up ms-1"></i>
+                                    <i class="bi bi-hand-thumbs-down ms-1"></i>
+                                    <i class="bi bi-arrow-down-circle ms-5"></i>
+                                </div>
+                              <h5 class="card-title text-white">Venom<i class="bi bi-badge-4k text-white ms-2"><i class="ms-2">2 : Seasons</i></i></h5>
+                              <p class="card-text d-flex "><span>97% Match <span class="badge bg-success ms-4">All</span></span></p>
+                              <div class="text-white">
+                                <div class="star-class pb-1">
+                                    <span class="bi bi-star-fill" ></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-fill"></span>
+                                        <span class="bi bi-star-half"></span>
+                                        <span class="bi bi-star"></span>
+                                  </div>
+                                  <span class="dot">Dark SuperHero Exciting</span>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                    <!--content end-->
+
+                    <!--Footer start-->
+                    <div class="row p-5">
+                        <div class="col-12  pt-4 d-flex text-white border-top">
+                            <footer class="pt-4">
+                                <span  style="font-size: 24px;">
+                                    <i class="bi bi-facebook me-1"></i>
+                                    <i class="bi bi-instagram ms-1"></i>
+                                    <i class="bi bi-twitter ms-1"></i>
+                                    <i class="bi bi-youtube ms-1"></i>
+                                </span>
+                            </footer>
+                        </div>
+                            <span style="color: honeydew; margin-top: 20px;">
+                                <ul>
+                                    <li>Media Center</li>
+                                    <li>Jobs</li>
+                                    <li>Privacy</li>
+                                    <li>cookie Preferences</li>
+                                    <li>Contact Us</li>
+                                    <li>Audio and Subtitles</li>
+                                    <li>Help Center</li>
+                                 </ul>
+                                 <ul>
+                                     <li>Audio Description</li>
+                                     <li>Gift Cards</li>
+                                     <li>Investor Relations</li>
+                                     <li>Terms of Use</li>
+                                     <li>Legal Notices</li>
+                                     <li>Corporate Information</li>
+                                 </ul>
+                                 <p>&copy; 2022 Company, Inc. All rights reserved.</p> 
+                            </span>    
+                        </div>
+                    <!--Footer end!-->
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
