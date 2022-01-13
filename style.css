@@ -1,0 +1,66 @@
+p > span {
+  color: #46d369;
+}
+span > img {
+  width: 24px;
+  height: 24px;
+}
+.dot {
+  height: 24px;
+  width: 24px;
+  background-color: black;
+  padding: 5px;
+}
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+.star-class {
+  color: gold;
+}
+.navbar-toggler {
+  background-color: rgb(131, 7, 7);
+
+  transition: transform 0.5s ease, background-color 1s;
+}
+.navbar-toggler:hover {
+  transform: translateY(-4px);
+  background-color: #111;
+}
+.card {
+  border: 2px solid #111;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #555;
+  overflow: hidden;
+  transform: skew(0deg);
+  transition: transform 0.1s, background-color 0.6s;
+  object-fit: cover;
+}
+.card:hover {
+  transform: skew(0deg) scale(1.2);
+  z-index: 1;
+}
+.list-group-item {
+  font-weight: bold;
+  overflow: hidden;
+  transform: skew(1deg);
+  transition: transform 0.1s, background-color 0.6s;
+  background-color: rgb(35, 34, 34);
+}
+.list-group-item:hover {
+  transform: skew(1deg) scale(1.1);
+  z-index: 1;
+  background-color: #111;
+  border: 1px #fff solid;
+}
+.circle-play1 {
+  color: #555;
+  font-size: 24px;
+}
+
+div > i:hover {
+  color: #fff;
+}
